@@ -25,7 +25,7 @@ export const multiDayPackages = [
     rating: 5.0,
     reviewCount: 380,
     description: 'Nikmati pesona liburan tak terlupakan dengan Paket Tour Bali Romantis & Budaya 3 Hari 2 Malam. Paket private tour ini dirancang khusus bagi Anda dan pasangan atau keluarga yang mendambakan perpaduan suasana romantis di pesisir selatan Bali dengan keagungan budaya dan panorama alam Kintamani serta Ubud. Mulai dari sambutan kalungan bunga di bandara, makan malam seafood romantis di tepi Pantai Jimbaran, keindahan tebing kapur Pantai Melasti/Pandawa, pesona sunset Pura Uluwatu, kesejukan Desa Adat Penglipuran yang asri, keindahan Danau & Gunung Batur Kintamani, hingga berburu oleh-oleh khas Bali sebelum kepulangan.',
-    image: 'https://res.cloudinary.com/lbxv4x3c/image/upload/v1792836771/antonia-nicoletta-irawan-V0cOEHVx1cE-unsplash.webp',
+    image: 'https://res.cloudinary.com/lbxv4x3c/image/upload/v1792839250/WhatsApp-Image-2026-03-14-at-11.11.58.webp',
     highlights: [
       'Kalungan bunga selamat datang saat penjemputan di Bandara I Gusti Ngurah Rai',
       'Makan siang kuliner autentik Ayam Betutu khas Bali',

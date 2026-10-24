@@ -651,6 +651,27 @@ export default function TourActivitiesPage({ onBookNow, initialCategory = 'overv
 
   // Full Day Tour Packages
   const fullDayTourPackages: ActivityPackage[] = [
+    {
+      id: 'bali-romantis-budaya-3-days',
+      title: 'Paket Tour Bali Romantis & Budaya 3 Hari 2 Malam',
+      categoryTag: 'Full Day Tour',
+      originalPrice: 165,
+      discountedPrice: 100,
+      savings: 65,
+      discountPercentage: 40,
+      duration: '3 Hari 2 Malam',
+      location: 'Bali Selatan, Ubud & Kintamani',
+      difficulty: 'Free & Easy',
+      capacity: 'Private Tour (2-5+ Orang)',
+      description: 'Nikmati pesona liburan tak terlupakan dengan Paket Tour Bali Romantis & Budaya 3 Hari 2 Malam: penjemputan bandara dengan kalungan bunga, Pantai Melasti/Pandawa, sunset Uluwatu, seafood dinner Jimbaran, Desa Adat Penglipuran, Kintamani Danau Batur, Tirta Empul, Ubud, dan belanja oleh-oleh Krisna/Agung Bali.',
+      image: 'https://res.cloudinary.com/lbxv4x3c/image/upload/v1792839250/WhatsApp-Image-2026-03-14-at-11.11.58.webp',
+      highlights: [
+        'Kalungan bunga selamat datang saat penjemputan di Bandara I Gusti Ngurah Rai',
+        'Pantai Melasti/Pandawa, sunset spektakuler Pura Uluwatu & dinner seafood Jimbaran',
+        'Desa Adat Penglipuran, makan siang buffet view Danau Batur & Pura Tirta Empul',
+        'Belanja suvenir di Krisna Oleh-Oleh / Agung Bali & kuliner penutup sebelum kepulangan'
+      ]
+    },
 {
     "id": "bali-culture-heritage-3-days",
     "title": "Bali’s Culture Heritage and Natural Beauty",
@@ -1565,7 +1586,7 @@ export default function TourActivitiesPage({ onBookNow, initialCategory = 'overv
                   }}
                   className="text-xs px-3 py-1 rounded-full bg-neutral-900 text-gold-100 hover:bg-neutral-800 transition-colors cursor-pointer"
                 >
-                  Full Day Tour (10)
+                  Full Day Tour ({fullDayTourPackages.length})
                 </button>
                 <button
                   onClick={() => {
@@ -1739,7 +1760,7 @@ export default function TourActivitiesPage({ onBookNow, initialCategory = 'overv
                   }}
                   className="text-xs px-3 py-1 rounded-full bg-neutral-900 text-gold-100 hover:bg-neutral-800 transition-colors cursor-pointer"
                 >
-                  Full Day Tour (10)
+                  Full Day Tour ({fullDayTourPackages.length})
                 </button>
                 <button
                   onClick={() => {
@@ -1886,7 +1907,7 @@ export default function TourActivitiesPage({ onBookNow, initialCategory = 'overv
                   }}
                   className="text-xs px-3 py-1 rounded-full bg-neutral-900 text-gold-100 hover:bg-neutral-800 transition-colors cursor-pointer"
                 >
-                  Full Day Tour (10)
+                  Full Day Tour ({fullDayTourPackages.length})
                 </button>
                 <button
                   onClick={() => {
@@ -2033,7 +2054,7 @@ export default function TourActivitiesPage({ onBookNow, initialCategory = 'overv
                   onClick={() => setCurrentView('full-day-tour')}
                   className="text-xs px-3.5 py-1 rounded-full bg-gold-500 text-white font-bold cursor-pointer shadow-sm"
                 >
-                  Full Day Tour (10)
+                  Full Day Tour ({fullDayTourPackages.length})
                 </button>
                 <button
                   onClick={() => {
@@ -2184,7 +2205,7 @@ export default function TourActivitiesPage({ onBookNow, initialCategory = 'overv
                   }}
                   className="text-xs px-3 py-1 rounded-full bg-neutral-900 text-gold-100 hover:bg-neutral-800 transition-colors cursor-pointer"
                 >
-                  Full Day Tour (10)
+                  Full Day Tour ({fullDayTourPackages.length})
                 </button>
                 <button
                   onClick={() => setCurrentView('animal-encounter')}
@@ -2290,7 +2311,7 @@ export default function TourActivitiesPage({ onBookNow, initialCategory = 'overv
                   }}
                   className="text-xs px-3 py-1 rounded-full bg-neutral-900 text-gold-100 hover:bg-neutral-800 transition-colors cursor-pointer"
                 >
-                  Full Day Tour (10)
+                  Full Day Tour ({fullDayTourPackages.length})
                 </button>
                 <button
                   onClick={() => {

@@ -23,6 +23,23 @@ export interface LocalizedContent {
 }
 
 export const TOUR_TRANSLATIONS: Record<string, Partial<Record<Language, LocalizedContent>>> = {
+  // 0. bali-romantis-budaya-3-days
+  'bali-romantis-budaya-3-days': {
+    en: {
+      title: 'Romantic & Cultural Bali Tour Package (3 Days / 2 Nights)',
+      tagline: 'Ngurah Rai Airport • Melasti Beach • Uluwatu Sunset • Jimbaran Seafood • Penglipuran • Kintamani',
+      shortDesc: 'Romantic & cultural 3 Days 2 Nights private tour in Bali: Melasti/Pandawa beach, Uluwatu sunset, candlelit Jimbaran seafood, Penglipuran village, Kintamani volcano, and souvenir shopping.',
+      description: 'Experience an unforgettable getaway with our 3 Days 2 Nights Romantic & Cultural Bali Tour. This private tour blends exotic southern Bali beaches, cliffside Uluwatu sunset, romantic beachfront Jimbaran seafood dining, cultural exploration at Penglipuran Traditional Village, and breathtaking Mount Batur volcano views in Kintamani.',
+      difficulty: 'Free & Easy',
+      highlights: [
+        'Flower garland welcome reception upon arrival at Ngurah Rai International Airport',
+        'Dramatic limestone cliffs at Melasti or Pandawa Beach, Uluwatu sunset & romantic Jimbaran seafood dinner',
+        'Penglipuran Traditional Village, buffet lunch with Mount Batur volcano views & Tirta Empul Temple',
+        'Ubud Art Market stroll and authentic souvenir shopping at Krisna / Agung Bali'
+      ]
+    }
+  },
+
   // 1. gate-of-heaven-water-palace-waterfall
   'gate-of-heaven-water-palace-waterfall': {
     en: {
