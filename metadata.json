@@ -1,0 +1,8 @@
+{
+  "name": "Remix Balinikitour (hanya contoh ",
+  "description": "hanya contoh video panduan, website utama bukan ini",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
